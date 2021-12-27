@@ -4,9 +4,37 @@
     box-sizing: border-box;
 }
 
-
+/* import fonts */
 @font-face {
+    font-family: "Big Shoulder Display";
+    src: url(./fonts/BigShouldersDisplay-Black.ttf);
 }
 
+@font-face {
+    font-family: "Outfit Light";
+    src: url(./fonts/Outfit-Light.ttf);
+}
+
+/* set color */
+:root {
+    --orange: #D5966C;
+    --black: #151515;
+    --grey: #444444;
+    --white: #FFFFFF;
+}
+
+/* Mobile view for width 375px */
+
+/* header */
+.main-head {
+    min-width: 100%;
+    min-height: 630px;
+}
+
+.image-mobile-hero {
+    width: 375px;
+    height: 240px;
+    background-image: url("./assets/mobile/image-hero.jpg");
+}
 
 /* footer social media */

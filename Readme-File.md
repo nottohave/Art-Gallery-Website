@@ -1,3 +1,5 @@
+[Live site](https://nottohave.github.io/Art-Gallery-Website/)
+
 12/26/21
     Begin project, construct html and style files.
     Download the correct fonts.
@@ -8,3 +10,5 @@
 12/27/21
     Construct html files semantically
     Begin styling fonts
+    Styling button location and arrow using flexbox
+    Found another way to do this without flexbox using after pseudo element but did not go along with it because it is more tiresome and less simplified

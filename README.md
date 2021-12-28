@@ -12,3 +12,4 @@
     Begin styling fonts
     Styling button location and arrow using flexbox
     Found another way to do this without flexbox using after pseudo element but did not go along with it because it is more tiresome and less simplified
+    Header is ready to view in mobile screen 375 width

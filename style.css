@@ -68,10 +68,11 @@
 
 /* location anchor box */
 .hero-section__location {
-    width: 280px;
+    width: 260px;
     height: 72px;
     margin: 32px 0px 0px 0px;
-    border: black 2px solid;
+    display: flex;
+    flex-direction: row;
 }
 
 /* location anchor */
@@ -90,6 +91,15 @@
     line-height: 24px;
     letter-spacing: 3.63px;
     font-weight: 500;
+}
+
+.arrow-right {
+    background: var(--orange);
+    width: 56px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer social media */

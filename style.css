@@ -102,4 +102,119 @@
     align-items: center;
 }
 
+/* main body */
+.body__container {
+    height: 1605px;
+    width: 343px;
+    margin-top: 114px;
+}
+
+
+/* fix background image later */
+.gallery {
+    height: 320px;
+    width: 100%;
+    background-image: url(./assets/mobile/image-grid-1@2x.jpg);
+}
+
+.body__container > h2 {
+    margin-top: 21px;
+    font-family: "Big Shoulders Display";
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.body__container > h2 > span {
+    display: block;
+}
+
+
+.body__container > p {
+    margin-top: 26px;
+    font-family: "Outfit Light";
+    font-family: 18px;
+    line-height: 28px;
+    color: var(--grey);
+    margin-right: 40px;
+}
+
+/* control size and lighting for the picture later */
+.bench-pic {
+    margin-top: 27px;
+    width: 100%;
+    height: 480px;
+    background-image: url(./assets/mobile/image-grid-2.jpg);
+}
+
+.ally-way-pic {
+    margin-top: 14px;
+    height: 200px;
+    background-image: url(./assets/mobile/image-grid-3@2x.jpg);
+}
+
+.invite-message {
+    height: 293px;
+    margin-top: 14px;
+    padding: 44px 25px;
+    background: var(--black)
+}
+
+.invite-message > h3 {
+    font-family: "Big Shoulders Display";
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    color: var(--white);
+    
+}
+
+.invite-message > p {
+    font-family: "Outfit Light";
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white)
+}
+
+/* footer */
+.footer {
+    height: 336px;
+    margin-top: 115px;
+}
+
+.container-footer {
+    padding: 45px 32px;
+    background: var(--black);
+}
+
+.container-footer > h4 {
+    font-family: "Big Shoulders Display";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--white);
+}
+
+.container-footer > h4 > span {
+    display: block;
+}
+
+.container-footer > p {
+    margin-top: 39px;
+    font-family: "Outfit Light";
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+}
+
 /* footer social media */
+.container-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 113px;
+    margin: 40px auto 0 0;
+}

@@ -17,3 +17,4 @@
 12/28/21
     Construct main body and footer,
     Style text like the design for mobile
+    Fix text margin & padding

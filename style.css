@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -33,9 +33,9 @@
 
 /* cover image */
 .image-mobile-hero {
-    width: 375px;
     height: 240px;
     background-image: url("./assets/mobile/image-hero.jpg");
+    background-size: cover;
 }
 
 /* title and p in header */
@@ -84,7 +84,6 @@
     justify-content: center;
     align-items: center; 
     background: var(--black);
-    margin: 0;
 
     font-family: "Big Shoulders Display";
     font-size: 20px;
@@ -107,7 +106,7 @@
 .body__container {
     height: 1605px;
     width: 343px;
-    margin-top: 114px;
+    margin: 114px 0px 0px 16px;
 }
 
 
@@ -116,6 +115,8 @@
     height: 320px;
     width: 100%;
     background-image: url(./assets/mobile/image-grid-1@2x.jpg);
+    background-size: cover;
+
 }
 
 .body__container > h2 {
@@ -153,6 +154,7 @@
     margin-top: 14px;
     height: 200px;
     background-image: url(./assets/mobile/image-grid-3@2x.jpg);
+    background-size: cover;
 }
 
 .invite-message {

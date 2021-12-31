@@ -23,3 +23,7 @@
     Style cover image and reposition them to get the full view of the pictures
     Create 2 new files to make the location webpage. This is to be linked with main page button.
     Construct html semantic for the location webpage.
+
+12/30/21
+    Update mobile main page and location page.
+    One bug: for some reason, the github location page does not load the styled fonts in the live site. Maybe it just take some time to update. 

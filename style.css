@@ -74,6 +74,8 @@
     margin: 32px 0px 0px 0px;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+
 }
 
 /* location anchor */

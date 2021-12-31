@@ -18,3 +18,8 @@
     Construct main body and footer,
     Style text like the design for mobile
     Fix text margin & padding
+
+12/29/21
+    Style cover image and reposition them to get the full view of the pictures
+    Create 2 new files to make the location webpage. This is to be linked with main page button.
+    Construct html semantic for the location webpage.

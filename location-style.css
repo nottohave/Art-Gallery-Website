@@ -4,3 +4,162 @@
     box-sizing: border-box;
 }
 
+/* import fonts */
+@font-face {
+    font-family: "Big Shoulders Display";
+    src: url(./fonts/BigShouldersDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: "Big Shoulders Display Bold";
+    src: url(./fonts/BigShouldersDisplay-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Outfit Light";
+    src: url(./fonts/Outfit-Light.ttf);
+}
+
+/* set color */
+:root {
+    --orange: #D5966C;
+    --black: #151515;
+    --grey: #444444;
+    --white: #FFFFFF;
+}
+
+/* location header */
+.location__header {
+    background-size: cover;
+    background-image: url(./assets/mobile/image-map@2x.png);
+    height: 550px;
+    width: 375px;
+}
+
+/* location button */
+.button-here {
+    height: 72px;
+    width: 264px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.arrow-left {
+    background: var(--orange);
+    width: 56px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button {
+    height: 100%;
+    width: 204px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: var(--black);
+
+    font-family: "Big Shoulders Display Bold";
+    font-size: 20px;
+    color: var(--white);
+    line-height: 24px;
+    letter-spacing: 3.63px;
+    text-transform: uppercase;
+}
+
+/* main body */
+.location__container {
+    height: 493px;
+    width: 375px;
+    background: var(--black);
+    padding: 48px 16px;
+}
+
+.location__container > h1 {
+    font-family: "Big Shoulders Display Bold";
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+/* King street to paragraph */
+.location__information {
+    margin-top: 45px;
+}
+
+.location__information > h2 {
+    margin-bottom: 20px;
+    font-family: "Big Shoulders Display Bold";
+    font-size: 32px;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+/* location address */
+.address {
+    height: 84px;
+    width: 343px;
+}
+
+.address > span {
+    display: block;
+    font-family: "Outfit Light";
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+/* location paragraph */
+.location__information > p {
+    margin-top: 20px;
+    font-family: "Outfit Light";
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);
+}
+
+/* footer */
+.footer {
+    height: 336px;
+    padding: 45px 32px;
+    background: var(--orange);
+}
+
+/* footer area for title and paragraph */
+.container-footer > h4 {
+    font-family: "Big Shoulders Display";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.container-footer > h4 > span {
+    display: block;
+}
+
+.container-footer > p {
+    margin-top: 39px;
+    font-family: "Outfit Light";
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+/* footer social media */
+.container-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 113px;
+    margin: 40px auto 0 0;
+}
+
+.icon-svg {
+    fill: black;
+}

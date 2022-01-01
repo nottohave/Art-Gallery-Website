@@ -28,7 +28,7 @@
 /* header */
 .main-head {
     min-width: 100%;
-    min-height: 630px;
+    max-height: 630px;
 }
 
 /* cover image */
@@ -41,7 +41,7 @@
 /* title and p in header */
 .hero-section {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 1.875em;
     padding: 0px 17px;
 }
 
@@ -52,7 +52,7 @@
     line-height: 55px;
     font-weight: 500;
     text-align: left;
-    margin-left: 0;
+    color: var(--black);
 }
 
 .hero-section__span {
@@ -75,7 +75,6 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-
 }
 
 /* location anchor */
@@ -121,7 +120,7 @@
 
 }
 
-.body__container > h2 {
+.gallery-header > h2 {
     margin-top: 21px;
     font-family: "Big Shoulders Display";
     font-size: 50px;
@@ -130,12 +129,12 @@
     font-weight: 500;
 }
 
-.body__container > h2 > span {
+.gallery-header >  span {
     display: block;
 }
 
 
-.body__container > p {
+.gallery-header > p {
     margin-top: 26px;
     font-family: "Outfit Light";
     font-family: 18px;
@@ -222,4 +221,68 @@
     justify-content: space-between;
     width: 113px;
     margin: 40px auto 0 0;
+}
+
+/* Tablet size 768 x 1024 */
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: var(--white);
+        opacity: 68%;
+    }
+    /* header */
+    .main-head {
+        height: 700px;
+        background-image: url(./assets/tablet/image-hero@2x.jpg);
+        background-size: 437px 700px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+
+    }
+
+    .image-mobile-hero {
+        display: none;
+    }
+
+    .hero-section {
+        height: 410px;
+        width: 340px;
+        position: absolute;
+        top: 145px;
+        left: 392px;
+        margin-top: 0em;
+        padding: 0px;
+    }
+
+    /* main body */ 
+    .body__container {
+        position: absolute;
+        width: 689px;
+        height: 1131px;
+        left: 39px;
+        top: 820px;
+        margin: 0px;
+        display: grid;
+        grid-template-rows: 291px 398px 398px 280px;
+    }
+
+    .gallery-header {
+        margin-top: 0px;
+        height: 400px;
+        width: 291px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-top: 36px;
+    }
+
+    .gallery {
+        height: 400px;
+        width: 398px;
+        background-image: url(./assets/tablet/image-grid-2@2x.jpg);
+        background-repeat: no-repeat;
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
 }

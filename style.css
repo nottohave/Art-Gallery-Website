@@ -226,10 +226,6 @@
 /* Tablet size 768 x 1024 */
 @media screen and (min-width: 768px) {
 
-    body {
-        background-color: var(--white);
-        opacity: 68%;
-    }
     /* header */
     .main-head {
         height: 700px;
@@ -239,7 +235,6 @@
         position: absolute;
         top: 0%;
         left: 0%;
-
     }
 
     .image-mobile-hero {
@@ -264,25 +259,59 @@
         left: 39px;
         top: 820px;
         margin: 0px;
+    }
+
+    /* body header and first image */
+    .testament-1 {
+        height: 400px;
+        width: 100%;
         display: grid;
-        grid-template-rows: 291px 398px 398px 280px;
+        grid-template-columns: 291px 398px;
     }
 
     .gallery-header {
-        margin-top: 0px;
         height: 400px;
         width: 291px;
+        padding-top: 36px;
+        grid-column-start: 1;
         grid-row-start: 1;
-        grid-row-end: 2;
-        margin-top: 36px;
     }
 
     .gallery {
         height: 400px;
         width: 398px;
-        background-image: url(./assets/tablet/image-grid-2@2x.jpg);
+        background-image: url(./assets/tablet/image-grid-1@2x.jpg);
         background-repeat: no-repeat;
-        grid-row-start: 2;
         grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    /* body  */
+    .testament-2 {
+        height: 720px;
+        width: 100%;
+        padding-top: 11px;
+        display: grid;
+        grid-template-columns: 398px 292px;
+        grid-template-rows: 312px 312px;
+    }
+
+    .bench-pic {
+        background-image: url(./assets/tablet/image-grid-2@2x.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+
+    .ally-way-pic {
+        display: none;
+    }
+
+    .invite-message {
+        display: none;
+    }
+    
+    .footer {
+        display: none;
     }
 }

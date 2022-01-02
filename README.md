@@ -27,3 +27,11 @@
 12/30/21
     Update mobile main page and location page.
     One bug: for some reason, the github location page does not load the styled fonts in the live site. Maybe it just take some time to update. 
+
+12/31/21
+    Finished the header for tablet.
+    Thinking about how to construct the body using grid.
+
+1/1/21
+    Finished the body using grid.
+    Begin to contruct the footer.

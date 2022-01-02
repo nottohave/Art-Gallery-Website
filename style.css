@@ -189,12 +189,12 @@
     margin-top: 115px;
 }
 
-.container-footer {
+.footer-content {
     padding: 45px 32px;
     background: var(--black);
 }
 
-.container-footer > h4 {
+.footer-content > h4 {
     font-family: "Big Shoulders Display";
     font-size: 23px;
     font-weight: 500;
@@ -202,11 +202,11 @@
     color: var(--white);
 }
 
-.container-footer > h4 > span {
+.footer-content > h4 > span {
     display: block;
 }
 
-.container-footer > p {
+.footer-content > p {
     margin-top: 39px;
     font-family: "Outfit Light";
     font-size: 16px;
@@ -326,7 +326,36 @@
         padding: 85px 29px;
     }
     
+    /* footer */
     .footer {
-        display: none;
+        position: absolute;
+        left: 0px;
+        top: 2071px;
+        width: 768px;
+        height: 216px;
+        margin-top: 0px;
+        padding: 45px 32px;
+        background: var(--black);
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    .footer-content > h4 {
+        width: 110px;
+        margin-right: 65px;
+    }
+
+    .footer-content > p {
+        width: 255px;
+        margin-top: 0px;
+        margin-right: 155px;
+    }
+
+    .container-social-media {
+        margin: 0px;
     }
 }

@@ -286,7 +286,15 @@
         grid-column-end: 3;
     }
 
-    /* body  */
+    /* body picture and invite message */
+    .bench-pic {
+        background-image: url(./assets/tablet/image-grid-2@2x.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+
+
     .testament-2 {
         height: 720px;
         width: 100%;
@@ -296,12 +304,6 @@
         grid-template-rows: 312px 312px;
     }
 
-    .bench-pic {
-        background-image: url(./assets/tablet/image-grid-2@2x.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 0px;
-    }
 
     .ally-way-pic {
         display: none;

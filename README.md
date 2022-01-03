@@ -32,6 +32,9 @@
     Finished the header for tablet.
     Thinking about how to construct the body using grid.
 
-1/1/21
+1/1/22
     Finished the body using grid.
     Begin to contruct the footer.
+
+1/2/22
+    Debug footer. It has extra paddings on certain section and div so I took it off and reconstruct it for tablet. It is also easy to control the design in Dekstop mode

@@ -40,3 +40,7 @@
     Debug footer. It has extra paddings on certain section and div so I took it off and reconstruct it for tablet. It is also easy to control the design in Dekstop mode.
     Update location page in tablet mode.
     I need to consider responsive design because I need to design to flow on my phone. So I need to dig in em and rem for size, padding and minmax.
+
+1/3/22
+    Update header for desktop site.
+    Small experiement with linear gradient and mix blend mode today.

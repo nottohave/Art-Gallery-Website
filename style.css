@@ -308,7 +308,7 @@
         margin-left: 11px;
         display: grid;
         grid-template-rows: 312px 312px;
-        grid-row-gap: 10px;
+        row-gap: 10px;
     }
 
     .ally-way-pic {
@@ -323,7 +323,7 @@
     .invite-message {
         margin-top: 0px;
         height: 396px;
-        padding: 85px 29px;
+        padding: 65px 48px;
     }
     
     /* footer */
@@ -398,8 +398,102 @@
         width: 351px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
     }
 
+    .header-paragraph-container > p {
+        margin-top: 80px;
+    }
+
+    .hero-section__location {
+        margin-top: 30px;
+    }
+
+    /* main body */
+    .body__container {
+        left: 165px;
+        height: 1150px;
+        width: 1110px;
+    }
+
+    .testament-1 {
+        width: 100%;
+    }
+
+    .gallery {
+        height: 400px;
+        width: 635px;
+        background-image: url(./assets/desktop/image-grid-1@2x.jpg);
+        background-size: cover;
+        margin-left: 185px;
+    }
+
+    .testament-2 {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .bench-pic {
+        background-image: url(./assets/desktop/image-grid-2@2x.jpg);
+        width: 635px;
+        margin-top: 0px;
+    }
+
+    .testament-3 {
+        margin-top: 0px;
+        margin-left: 30px;
+        width: 550px;
+        row-gap: 30px;
+    }
+
+    .ally-way-pic {
+        height: 313px;
+        width: 100%;
+        background-image: url(./assets/desktop/image-grid-3@2x.jpg);
+        background-size: cover;
+    }
+
+    .invite-message {
+        height: 377px;
+        width: 100%;
+    }
+
+    .invite-message > h3 {
+        width: 350px;
+        height: 120px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .invite-message > p {
+        width: 350px;
+        height: 96px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* footer */
+    .footer {
+        width: 1440px;
+        padding: 80px 165px;
+    }
+
+    .footer-content {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-content > h4 {
+        width: 160px;
+        font-size: 27px;
+        line-height: 27px;
+        margin-right: 0px;
+        
+    }
+
+    .footer-content > p {
+        width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
 }

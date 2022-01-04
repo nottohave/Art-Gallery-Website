@@ -59,7 +59,7 @@
     display: block;
 }
 
-.hero-section > p {
+.header-paragraph-container > p {
     margin-top: 32px;
     font-family: "Outfit Light";
     font-size: 18px;
@@ -361,3 +361,47 @@
 }
 
 /* Desktop Mode */
+@media screen and (min-width: 1400px) {
+    /* header */
+    .main-head {
+        height: 800px;
+        width: 990px;
+        background-image:
+        linear-gradient(to right, white 0 55%, black 55% 100%),
+         url(./assets/desktop/image-hero@2x.jpg);
+        background-size: 450px 800px, 540px 800px;
+        background-repeat: no-repeat, no-repeat;
+        background-position: left top, 450px 0px;
+    }
+
+    .hero-section {
+        top: 193px;
+        left: 165px;
+        height: 454px;
+        width: 1108px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-section > h1 {
+        mix-blend-mode: difference;
+        color: var(--white);
+        width: 400px;
+        font-size: 100px;
+        line-height: 120px;
+        text-align: left;
+    }
+
+    .header-paragraph-container {
+        height: 100%;
+        width: 351px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .header-paragraph-container > p {
+    }
+}

@@ -225,3 +225,67 @@
 
 
 }
+
+@media screen and (min-width: 1400px) {
+    .location__header {
+        height: 685px;
+        width: 100vw;
+        background-image: url(./assets/desktop/image-map@2x.png);        
+        background-size: contain;
+    }
+
+    .button-here {
+        margin-left: 156px;
+    }
+
+    /* main body */
+    .location__container {
+        height: 548px;
+        width: 100vw;
+        padding: 104px 165px 126px 165px;
+
+    }
+
+    .location__container > h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .location__information {
+        width: 540px;
+    }
+
+    .location__information > h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .address > span,
+    .location__information > p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* footer */
+    .footer {
+        width: 100vw;
+        padding: 80px 165px;
+    }
+
+    .footer-content {
+        justify-content: space-between;
+    }
+
+    .footer-content > h4 {
+        font-size: 27px;
+        line-height: 27px;
+        margin-right: 0px;
+        width: 160px;
+    }
+
+    .footer-content > p {
+        width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

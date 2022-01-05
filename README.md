@@ -44,3 +44,8 @@
 1/3/22
     Update header for desktop site.
     Small experiement with linear gradient and mix blend mode today.
+
+1/4/22
+    Update on desktop mode for the website.
+    Everything is static - mean as you increase the screen size, things will stay permanent to the top left. I will find a way to make it responsive. Just atm, to make it responsive meaning to break certain big part down which could affect the smaller components. This is not a great practice, but it can be improved over time. 
+    

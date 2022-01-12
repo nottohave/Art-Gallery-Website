@@ -27,26 +27,30 @@
 
 /* header */
 .main-head {
-    min-width: 100%;
+    min-width: 291px;
+    max-width: 35em;
     max-height: 630px;
 }
 
 /* cover image */
 .image-mobile-hero {
     height: 240px;
+    max-width: 100%;
+    display: block;
     background-image: url("./assets/mobile/image-hero.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* title and p in header */
 .hero-section {
-    width: 100%;
+    max-width: 35em;
     margin-top: 1.875em;
     padding: 0px 17px;
 }
 
 .hero-section > h1 {
-    width: 343px;
+    width: 100%;
     font-family: "Big Shoulders Display";
     font-size: 60px;
     line-height: 55px;
@@ -106,7 +110,8 @@
 /* main body */
 .body__container {
     height: 1605px;
-    width: 343px;
+    min-width: 291px;
+    max-width: 35em;
     margin: 114px 0px 0px 16px;
 }
 
@@ -114,9 +119,11 @@
 /* fix background image later */
 .gallery {
     height: 320px;
-    width: 100%;
+    max-width: 100%;
+    display: block;
     background-image: url(./assets/mobile/image-grid-1@2x.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
@@ -146,20 +153,24 @@
 /* control size and lighting for the picture later */
 .bench-pic {
     margin-top: 27px;
-    width: 100%;
+    max-width: 35em;
     height: 480px;
     background-image: url(./assets/mobile/image-grid-2.jpg);
+    background-repeat: no-repeat;
 }
 
 .ally-way-pic {
     margin-top: 14px;
     height: 200px;
     background-image: url(./assets/mobile/image-grid-3@2x.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 .invite-message {
     height: 293px;
+    max-width: 35em;
     margin-top: 14px;
     padding: 44px 25px;
     background: var(--black)
@@ -186,6 +197,8 @@
 /* footer */
 .footer {
     height: 336px;
+    min-width: 291px;
+    max-width: 35em;
     margin-top: 115px;
 }
 
@@ -229,6 +242,8 @@
     /* header */
     .main-head {
         height: 700px;
+        min-width: 43.75em;
+        max-width: 75em;
         background-image: url(./assets/tablet/image-hero@2x.jpg);
         background-size: 437px 700px;
         background-repeat: no-repeat;

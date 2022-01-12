@@ -269,7 +269,8 @@
     /* main body */ 
     .body__container {
         position: absolute;
-        width: 689px;
+        min-width: 700px;
+        max-width: 62.5em;
         height: 1131px;
         left: 39px;
         top: 820px;
@@ -346,7 +347,7 @@
         position: absolute;
         left: 0px;
         top: 2071px;
-        width: 768px;
+        max-width: 50em;
         height: 216px;
         margin-top: 0px;
         padding: 45px 32px;

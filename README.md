@@ -53,4 +53,7 @@
     Mobile 375px
     Tablet 768px
     Desktop: 1400px
+
+1/11/22
+    Apply max and min-width to allow content to grow before reaching the break points.
     

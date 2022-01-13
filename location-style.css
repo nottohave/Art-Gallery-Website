@@ -28,12 +28,18 @@
     --white: #FFFFFF;
 }
 
+body {
+    min-width: 300px;
+    height: 100vh;
+}
+
 /* location header */
 .location__header {
-    background-size: cover;
+    background-size: contain;
     background-image: url(./assets/mobile/image-map@2x.png);
-    height: 550px;
-    width: 375px;
+    min-height: 500px;
+    min-width: 375px;
+    background-repeat: no-repeat;
 }
 
 /* location button */
@@ -73,7 +79,7 @@
 /* main body */
 .location__container {
     height: 493px;
-    width: 375px;
+    max-width: 43.75em;
     background: var(--black);
     padding: 48px 16px;
 }
@@ -128,6 +134,8 @@
     height: 336px;
     padding: 45px 32px;
     background: var(--orange);
+    max-width: 43.75em;
+
 }
 
 /* footer area for title and paragraph */

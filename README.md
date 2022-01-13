@@ -56,4 +56,12 @@
 
 1/11/22
     Apply max and min-width to allow content to grow before reaching the break points in mobile and tablet mode. Will touch on desktop mode tomorrow. 
+
+1//12/22
+    one major flaw: min and max-width are restricting the design to grow or even cause bug if I don't use carefully. Because I built this project using the old style position absolute and size in pixels. The size of the container remain fixed and static to the top left of the browser. 
+
+    Design fall apart in these screen sizes:
+    375px - <768px
+    800px - <1400px
+    1500px+
     

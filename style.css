@@ -352,7 +352,7 @@
         position: absolute;
         left: 0px;
         top: 2071px;
-        max-width: 50em;
+        max-width: 800px;
         height: 216px;
         margin-top: 0px;
         padding: 45px 32px;
@@ -508,7 +508,7 @@
 
     /* footer */
     .footer {
-        width: 1440px;
+        min-width: 1400px;
         padding: 80px 165px;
     }
 

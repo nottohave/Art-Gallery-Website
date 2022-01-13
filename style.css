@@ -159,6 +159,10 @@
     background-repeat: no-repeat;
 }
 
+.bench-desktop-pic {
+    display: none;
+}
+
 .ally-way-pic {
     margin-top: 14px;
     height: 200px;
@@ -295,7 +299,8 @@
 
     .gallery {
         height: 400px;
-        width: 398px;
+        width: 100%;
+        display: block;
         background-image: url(./assets/tablet/image-grid-1@2x.jpg);
         background-repeat: no-repeat;
         grid-column-start: 2;
@@ -339,7 +344,7 @@
     .invite-message {
         margin-top: 0px;
         height: 396px;
-        padding: 65px 48px;
+        padding: 85px 29px;
     }
     
     /* footer */
@@ -398,6 +403,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 28em;
     }
 
     .hero-section > h1 {
@@ -434,14 +440,20 @@
 
     .testament-1 {
         width: 100%;
+        grid-template-columns: 291px auto;
     }
 
     .gallery {
         height: 400px;
-        width: 635px;
+        max-width: 100%;
+        display: block;
+        margin-left: 0px;
         background-image: url(./assets/desktop/image-grid-1@2x.jpg);
         background-size: cover;
-        margin-left: 185px;
+    }
+
+    .gallery-header {
+        max-width: 25em;
     }
 
     .testament-2 {
@@ -450,9 +462,15 @@
     }
 
     .bench-pic {
-        background-image: url(./assets/desktop/image-grid-2@2x.jpg);
-        width: 635px;
+        background-image: unset;
+        flex-basis: 635px;
         margin-top: 0px;
+    }
+
+    .bench-desktop-pic {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     .testament-3 {

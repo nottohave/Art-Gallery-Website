@@ -64,4 +64,6 @@
     375px - <768px
     800px - <1400px
     1500px+
-    
+
+1/14/22
+    Fix the location page to allow content to grow before breakpoint.

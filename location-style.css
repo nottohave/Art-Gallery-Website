@@ -248,15 +248,17 @@ body {
 
     /* main body */
     .location__container {
-        height: 548px;
+        height: 600px;
         width: 100vw;
-        padding: 104px 165px 126px 165px;
+        padding: 104px 150px 126px 165px;
 
     }
 
     .location__container > h1 {
         font-size: 70px;
         line-height: 70px;
+        max-width: 350px;
+        margin-right: 300px;
     }
 
     .location__information {
@@ -268,9 +270,13 @@ body {
         line-height: 36px;
     }
 
+    .address {
+        height: 100px;
+    }
+
     .address > span,
     .location__information > p {
-        font-size: 22px;
+        font-size: 23px;
         line-height: 32px;
     }
 

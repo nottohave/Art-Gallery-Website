@@ -175,9 +175,10 @@ body {
 /* tablet mode */
 @media screen and (min-width: 768px) {
     .location__header {
-        height: 600px;
-        width: 768px;
+        max-height: 1100px;
+        max-width: 1300px;
         background-image: url(./assets/tablet/image-map@2x.png);
+        background-size: contain;
     }
     
     .button-here {
@@ -185,8 +186,8 @@ body {
     }
     
     .location__container {
-        height: 436px;
-        width: 768px;
+        max-height: 1100px;
+        max-width: 1300px;
         padding: 86px 40px;
         display: flex;
         flex-direction: row;
@@ -195,42 +196,41 @@ body {
     
     .location__container > h1 {
         height: 100%;
-        width: 223px;
+        max-width: 400px;
+        margin-right: 101px;
     }
     
     .location__information {
         margin-top: 0px;
-        width: 398px;
+        min-width: 400px;
+        max-width: 555px;
     }
     
     /* footer */
     .footer {
         height: 216px;
-        width: 768px;
-        padding: 54px 38px;
-
+        max-width: 1300px;
+        padding: 3.375em 2.375em;
     }
+
     .footer-content {
         display: flex;
         flex-direction: row;
-        padding: 0px;
+        justify-content: space-between;
     }
 
     .footer-content > h4 {
         width: 110px;
-        margin-right: 65px;
     }
 
     .footer-content > p {
-        width: 255px;
+        max-width: 430px;
         margin-top: 0px;
-        margin-right: 155px;
     }
 
     .container-social-media {
         margin: 0px;
     }
-
 
 }
 

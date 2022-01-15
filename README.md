@@ -66,4 +66,4 @@
     1500px+
 
 1/14/22
-    Fix the location page to allow content to grow before breakpoint.
+    Fix the location page to allow content to grow before breakpoint in tablet and desktop mode.

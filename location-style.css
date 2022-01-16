@@ -51,6 +51,14 @@ body {
     text-decoration: none;
 }
 
+.button-here:hover .arrow-left {
+    background: var(--black);
+}
+
+.button-here:hover .home-button {
+    background: var(--orange);
+}
+
 .arrow-left {
     background: var(--orange);
     width: 56px;
@@ -58,6 +66,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .home-button {
@@ -67,6 +76,7 @@ body {
     justify-content: center;
     align-items: center; 
     background: var(--black);
+    transition: 0.5s;
 
     font-family: "Big Shoulders Display Bold";
     font-size: 20px;

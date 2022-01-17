@@ -35,15 +35,24 @@ body {
 
 /* location header */
 .location__header {
-    background-size: contain;
-    background-image: url(./assets/mobile/image-map@2x.png);
     min-height: 500px;
     min-width: 375px;
-    background-repeat: no-repeat;
 }
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated {
+     will-change:auto !important; 
+} 
 
 /* location button */
 .button-here {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 72px;
     width: 264px;
     display: flex;
@@ -199,8 +208,6 @@ body {
     .location__header {
         max-height: 1100px;
         max-width: 1300px;
-        background-image: url(./assets/tablet/image-map@2x.png);
-        background-size: contain;
     }
     
     .button-here {
@@ -260,8 +267,6 @@ body {
     .location__header {
         height: 685px;
         width: 100vw;
-        background-image: url(./assets/desktop/image-map@2x.png);        
-        background-size: cover;
     }
 
     .button-here {

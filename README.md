@@ -1,6 +1,6 @@
 # Frontend Mentor - Art gallery website solution
 
-This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). 
+This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA).
 
 ## Table of contents
 
@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL**: [Add solution URL here](https://your-solution-url.com)
+- **Solution URL**: [Solution URL](https://www.frontendmentor.io/solutions/art-gallery-webpage-svfWa83cq)
 - **Live Site URL**: [Live site](https://nottohave.github.io/Art-Gallery-Website/)
 
 ## My process
@@ -79,6 +79,7 @@ const map = new mapboxgl.Map({
 });
 ```
 
+- What I have trouble with: Please check Project Blog Date 1/12/22
 
 ### Useful resources
 
@@ -97,6 +98,7 @@ const map = new mapboxgl.Map({
 [Frontend Mentor Slack](https://www.frontendmentor.io/slack)
 
 Thank you for members on Frontendmentor's Slack that asked questions related to what I have troubles with. By reading their questions, I have learned a little more everyday.
+
 ## Project Blog
 
 
@@ -157,7 +159,7 @@ Thank you for members on Frontendmentor's Slack that asked questions related to 
 1/11/22
     Apply max and min-width to allow content to grow before reaching the break points in mobile and tablet mode. Will touch on desktop mode tomorrow. 
 
-1//12/22
+1/12/22
     one major flaw: min and max-width are restricting the design to grow or even cause bug if I don't use carefully. Because I built this project using the old style position absolute and size in pixels. The size of the container remain fixed and static to the top left of the browser. 
 
     Design fall apart in these screen sizes:

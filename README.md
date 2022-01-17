@@ -1,4 +1,103 @@
-[Live site](https://nottohave.github.io/Art-Gallery-Website/)
+# Frontend Mentor - Art gallery website solution
+
+This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+- [Project Blog](#projectblog)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin - I used Mapbox for the bonus as it is easy, up to date and more simplified to use.
+
+### Screenshot
+
+![preview](./preview.jpg)
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Live site](https://nottohave.github.io/Art-Gallery-Website/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+```html
+<section class="invite-message">
+  <h3>Come & be inspired</h3>
+  <p>We're excited to welcome you to our gallery and see how our collections 
+    influence you.
+  </p>
+</section>  
+```
+```css
+.linear-gradient {
+  background-image:
+  linear-gradient(to right, white 0 55%, black 55% 100%),
+    url(./assets/desktop/image-hero@2x.jpg);
+}
+
+.mix-blend-mode-text {
+  mix-blend-mode: difference;
+  color: var(--white);
+}
+```
+```js
+const map = new mapboxgl.Map({
+  container: 'map', // container ID
+  tilesize: 512,
+  style: 'mapbox://styles/mapbox/outdoors-v11', 
+  center: [-71.3110000, 41.480265], // center of map
+  zoom: 15 // starting zoom
+});
+```
+
+
+### Useful resources
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Learn) - I use this when I was confused about certain CSS styles like flex gap and grid column start/end.
+- [Mapbox](https://www.mapbox.com/) - Amazing place to get your free map and attach it to your webpage.
+- [An intro to Mapbox](https://www.youtube.com/watch?v=xqziMlFkDA0) - follow this tutorial to use mapbox.
+
+## Author
+
+- Github - [nottohave](https://github.com/nottohave)
+- Frontend Mentor - [@nottohave](https://www.frontendmentor.io/profile/nottohave)
+- Twitter - [@Ubering_Cacti](https://twitter.com/Ubering_Cacti)
+
+
+## Acknowledgments
+[Frontend Mentor Slack](https://www.frontendmentor.io/slack)
+
+## Project Blog
+
 
 12/26/21
     Begin project, construct html and style files.

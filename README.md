@@ -166,3 +166,6 @@ const map = new mapboxgl.Map({
 
 1/14/22
     Fix the location page to allow content to grow before breakpoint in tablet and desktop mode.
+
+1/15 & 1/16/22
+    Learn, debug leaflet and mapbox. Goal is to get the mapbox onto the webpage. Remove the map image and replace it with interactive mapbox.

@@ -44,10 +44,6 @@ body {
     width: 100%;
 }
 
-.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated {
-     will-change:auto !important; 
-} 
-
 /* location button */
 .button-here {
     position: absolute;

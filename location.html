@@ -9,18 +9,20 @@
   />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./location-style.css">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+
 
   <title>Frontend Mentor | Art gallery website</title>
 </head>
 <body>
 
   <header class="location__header">
-    <!-- look up how to customize pin after desktop mode is finished -->
-    <!-- look up calc function -->
+    <div id="map"></div>
     <a class="button-here" role="button" tabindex="0" href="./index.html">
 
      <div class="arrow-left">
-      <svg width="10" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" fill="none" d="M9 24 1 12 9 0"/>
+      <svg width="10" height="24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke="#FFF" fill="none" d="M9 24 1 12 9 0"/>
       </svg>
      </div>
 
@@ -86,6 +88,10 @@
       
     </section>
   </footer>
-
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+  <script src="./script.js"></script>
 </body>
 </html>

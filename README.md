@@ -1,6 +1,6 @@
 # Frontend Mentor - Art gallery website solution
 
-This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). 
 
 ## Table of contents
 
@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live site](https://nottohave.github.io/Art-Gallery-Website/)
+- **Solution URL**: [Add solution URL here](https://your-solution-url.com)
+- **Live Site URL**: [Live site](https://nottohave.github.io/Art-Gallery-Website/)
 
 ## My process
 
@@ -96,6 +96,7 @@ const map = new mapboxgl.Map({
 ## Acknowledgments
 [Frontend Mentor Slack](https://www.frontendmentor.io/slack)
 
+Thank you for members on Frontendmentor's Slack that asked questions related to what I have troubles with. By reading their questions, I have learned a little more everyday.
 ## Project Blog
 
 

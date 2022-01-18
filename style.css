@@ -155,7 +155,7 @@
 .gallery-header > p {
     margin-top: 26px;
     font-family: "Outfit Light";
-    font-family: 18px;
+    font-size: 18px;
     line-height: 28px;
     color: var(--grey);
     margin-right: 40px;
@@ -399,11 +399,12 @@
 }
 
 /* Desktop Mode */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
     /* header */
     .main-head {
         height: 800px;
-        width: 990px;
+        max-height: unset;
+        width: 1000px;
         background-image:
         linear-gradient(to right, white 0 55%, black 55% 100%),
          url(./assets/desktop/image-hero@2x.jpg);
@@ -434,14 +435,17 @@
 
     .header-paragraph-container {
         height: 100%;
-        width: 351px;
+        min-width: 21.9375em;
+        max-width: 25em;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .header-paragraph-container > p {
+        height: 160px;
         margin-top: 80px;
+        font-size: 22px;
     }
 
     .hero-section__location {
@@ -451,6 +455,7 @@
     /* main body */
     .body__container {
         left: 165px;
+        top: 981px;
         height: 1150px;
         width: 1110px;
     }
@@ -471,6 +476,11 @@
 
     .gallery-header {
         max-width: 25em;
+    }
+
+    .gallery-header > p {
+        font-size: 20px;
+        margin-top: 30px;
     }
 
     .testament-2 {
@@ -507,6 +517,7 @@
     .invite-message {
         height: 377px;
         width: 100%;
+        padding: 65px 29px;
     }
 
     .invite-message > h3 {
@@ -525,6 +536,8 @@
 
     /* footer */
     .footer {
+        top: 2310px;
+
         min-width: 1400px;
         padding: 80px 165px;
     }

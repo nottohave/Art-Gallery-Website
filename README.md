@@ -172,3 +172,6 @@ Thank you for members on Frontendmentor's Slack that asked questions related to 
 
 1/15 & 1/16/22
     Learn, debug leaflet and mapbox. Goal is to get the mapbox onto the webpage. Remove the map image and replace it with interactive mapbox.
+
+1/17/22
+    Debug design. 

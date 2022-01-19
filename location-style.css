@@ -325,3 +325,24 @@ body {
         line-height: 28px;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .location__header, 
+    .location__container,
+    .footer {
+        margin-left: 12em;
+    }
+
+    .button-here {
+        margin-left: 22em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .location__header, 
+    .location__container,
+    .footer {
+        margin-left: 18rem;
+    }
+
+}
